@@ -1,0 +1,64 @@
+.five{
+	background-color:#F7F7F7;
+	text-align: center;
+	padding-bottom:100px;
+		h1:first-child{
+			font-size: 40px;
+		    margin-top: 0;
+		    margin-bottom: 15px;
+		    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    	font-weight: 700;
+		}
+		h3{
+			font-size: 16px;
+		    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		    text-transform: none;
+		    font-style: italic;
+		    font-weight: 400;
+		    margin-bottom: 75px;
+		    color: #777777;
+		}
+		.circulo{
+			border-radius: 100%;
+		    width: 250px;
+		    height: 250px;
+		    margin: auto;
+		    padding: 2%;
+		    background-color: white;
+    	img{
+	    	width: 100%;
+	    	border-radius: 100%;
+   	 	}
+	}
+}
+.col-md-4{
+	.fa.fa-twitter{
+		background:black;
+		padding:9px 10px;
+		margin-right:10px;
+		border-radius: 100%;
+		color:white;
+		font-size:15px;
+	}
+	.fa.fa-linkedin {
+		@extend .fa.fa-twitter;
+	}
+	.fa.fa-facebook{
+		@extend .fa.fa-twitter;
+		padding:9px 13px;
+	}
+}
+.center{
+	font-size: 16px;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-bottom: 75px;
+    color: #777777;
+    width: 63%;
+    margin-left: 195px;
+    margin-top: 80px;
+}
+.six{
+	padding-top:55px;
+	padding-bottom:55px;
+}

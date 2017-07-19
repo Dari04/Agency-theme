@@ -1,0 +1,48 @@
+.two{
+	text-align: center;
+	padding-bottom:80px;
+		h1:first-child{
+			font-size: 40px;
+		    margin-top: 0;
+		    margin-bottom: 15px;
+		    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    	font-weight: 700;
+		}
+		h3{
+			font-size: 16px;
+		    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		    text-transform: none;
+		    font-style: italic;
+		    font-weight: 400;
+		    margin-bottom: 75px;
+		    color: #777777;
+		} 
+}
+.col-md-4{
+	.icons{
+		position: relative;
+	    display: inline-block;
+	    width: 7em;
+	    height: 7em;
+	    vertical-align: middle;
+	    background-color: #fed136;
+	    border-radius: 100px;
+	    i{
+	  		font-size: 62px;
+	  		color:white;
+	  		margin-top: 21px;
+	  	}
+	}
+	h4{
+	  	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  	font-size: 18px;
+	  	font-weight: bold;
+
+	}
+	p{
+		    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		    color:grey;
+	}
+	
+	
+}

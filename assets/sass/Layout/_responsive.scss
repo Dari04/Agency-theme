@@ -1,0 +1,40 @@
+@media  screen and (min-width:320px) and (max-width: 768px) {
+    header{
+    	.navbar-default{
+        background-color:black;
+    	}
+	}
+	.three{
+		.row{
+			width:100%;
+		}
+		img{
+			width:100%;
+			margin-left: 35px;
+		}
+		.letter{
+			width: 100%;
+			margin-left: 35px;
+			max-width:none;
+		}
+	}
+	.five{
+		.center{
+			width:100%;
+			margin-left:0px;
+		}
+	}
+	.six{
+		img{
+			width: 100%;
+		}
+	}
+	.seven{
+		.btn{
+			   margin-top: 25px;
+		}
+	}
+	footer{
+		text-align:center;
+	}
+}

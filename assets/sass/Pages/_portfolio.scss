@@ -1,0 +1,50 @@
+.three{
+	background-color:#F7F7F7;
+	text-align: center;
+	padding-bottom:100px;
+		h1:first-child{
+			font-size: 40px;
+		    margin-top: 0;
+		    margin-bottom: 15px;
+		    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    	font-weight: 700;
+	    	text-transform:uppercase;
+		}
+		h3{
+			font-size: 16px;
+		    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		    text-transform: none;
+		    font-style: italic;
+		    font-weight: 400;
+		    margin-bottom: 75px;
+		    color: #777777;
+		}
+		img{
+			width:100%;
+			transform: scale(1);
+		  	-ms-transform: scale(1);
+		  	-moz-transform: scale(1);
+		  	-webkit-transform: scale(1);
+		 	 -o-transform: scale(1);
+		  	-webkit-transition: all 500ms ease-in-out;
+		  	-moz-transition: all 500ms ease-in-out;
+		  	-ms-transition: all 500ms ease-in-out;
+		  	-o-transition: all 500ms ease-in-out;
+		  	&:hover{
+		  	transform: scale(1.2);
+			-ms-transform: scale(1.2);
+			-moz-transform: scale(1.2);
+			-webkit-transform: scale(1.2);
+			-o-transform: scale(1.2);
+		  	}
+		}
+		.letter{
+			max-width: 400px;
+		    margin: 0 auto;
+		    background-color: white;
+		    text-align: center;
+		    padding: 25px;
+		    margin-bottom:35px;
+		}
+
+}
